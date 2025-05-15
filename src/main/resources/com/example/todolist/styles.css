@@ -1,0 +1,23 @@
+.root {
+    -fx-background-color: linear-gradient(to bottom right, #74b9ff, #a29bfe);
+}
+
+.task-label {
+    -fx-padding: 5px;
+    -fx-font-size: 14px;
+    -fx-background-color: #f0f0f0;
+    -fx-background-radius: 5px;
+    -fx-min-width: 300px;
+    -fx-cursor: hand;
+}
+
+.pending-task {
+    -fx-text-fill: black;
+}
+
+.completed-task {
+    -fx-background-color: #dddddd;
+    -fx-text-fill: gray;
+    -fx-strikethrough: true;
+    -fx-opacity: 0.7;
+}
